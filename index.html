@@ -1,36 +1,48 @@
-<html lang="en">
-  <head>
-     <meta charset="UTF-8">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>
-     晓吐斗的主页
-   </title>
-  </head>
-<body>
-<style>
-    div{
-        background:#1E88E5;
-        font-weight:bold;
-        text-align：center;
-        text-color: white;
-       }
-body {
-	background: white;
-	overflow-x: hidden;
-	width: 100%;
-	margin: 0;
-}
-</style>
-  <div>幻想公会</div>
-<h4>
-   <p>正在学习html</p>
-</h4>
-       <ins>
-       <a href="mncat_addons_maker_dn.html" target="_self">
-        前往查看MncatAddonsMaker-MinecraftAddons制作器
-       </a>
-</ins>
-</p>
-
-<body>
+<<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<style type="text/css">
+			*{
+				margin: 0;
+				padding: 0;
+			}
+			.container{
+				width: 300px;
+				height: 300px;
+				margin: 50px auto;
+				background-color: rgba(204,204,204,.6);
+				position: relative;
+			}
+			.btn{
+				display: inline-block;
+				width: 100px;
+				height: 35px;
+				border-radius: 24px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);
+				border: none;
+				outline: none;
+				cursor: pointer;
+				box-shadow: 0 10px 10px rgba(0,0,0,.3);
+			}
+		</style>
+		<link rel="stylesheet" type="text/css" href="main_css/ripple.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<button class="btn ripple-effect">Click
+				<span class="ripple"></span>
+			</button>
+		</div>
+	</body>
+	<script src="main_js/ripple.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		window.onload = function() {
+			ripple();
+		}
+	</script>
 </html>
