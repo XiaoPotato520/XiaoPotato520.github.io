@@ -22,8 +22,8 @@
 }
 
 .ripple-effect .animated {
-  -webkit-animation: ripple 0.2s linear;
-          animation: ripple 0.2s linear;
+  -webkit-animation: ripple 0.4s linear;
+          animation: ripple 0.4s linear;
 }
 @keyframes ripple {
   100% {
