@@ -9,21 +9,22 @@
 <meta name="applicable-device" content="mobile">
 <title>一款MC基岩版Add-on制作器  Add-on Maker</title>
 
-<html>
+<html><body>
 <style>
-div.margin_auto_vertical{
-margin: 0 auto;
-width: 0px;
-height: 0px;
-		}
+
 
 div.margin_auto_all{
 	width: 0px;
 	height: 0px;
 	position:absolute;
-    top:50%;
-    left:50%;
     margin:0 auto;
+}
+
+h3.main_text_up_download{
+text-align: center;
+
+
+
 }
 
 </style>
@@ -46,18 +47,46 @@ div.margin_auto_all{
     </div>
   </header>
   <div class="mdl-layout__drawer">
-    <span class="mdl-layout-title">#</span>
+    <span background-color="#000fff" class="mdl-layout-title">空的</span>
+    <!-- Tabs -->
+    <div class="mdl-layout__tab-bar mdl-js-ripple-effect">
+
+    </div>
   </div>
   <main class="mdl-layout__content">
     <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1">
       <div class="page-content">
+<div align="center">
+
+<!-- Square card -->
+<style>
+.demo-card-square.mdl-card {
+  width: 0 auto;
+  height: 0 auto;border-radius: 5px;margin: 5px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../icon.ng') bottom right 15% no-repeat #46B6AC;
+}
+</style>
+
+<div class="demo-card-square mdl-card mdl-shadow--2dp">
+  <div class="mdl-card__title mdl-card--expand">
+    <h2 class="mdl-card__title-text">alpha 0.0.1</h2>
+  </div>
+  <div class="mdl-card__supporting-text">
+1.抽屉界面
+2.MD设计风格
+  </div>
+  <div class="mdl-card__actions mdl-card--border">
+    <a id="main_download_btn" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect">
+      下载测试
+    </a>
+  </div>
+</div>
 
 
-
-<div class="margin_auto_all">
-<button id="main_download_btn" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-  下载
-</button>
 
 <script>
 (function() {
@@ -75,7 +104,7 @@ window.location.href='https://wwx.lanzoux.com/b0f721npe';
 </div>
     </section>
     <section class="mdl-layout__tab-panel" id="scroll-tab-2">
-      <div class="page-content margin_auto_all">
+      <div align="center" class="page-contentl">
 
 
 <button id="update_direct_add_button" class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored">
@@ -103,9 +132,9 @@ window.location.href='https://wwx.lanzoux.com/b0f721npe';
 </div>
     </section>
     <section class="mdl-layout__tab-panel" id="scroll-tab-3">
-      <div class="page-content margin_auto"><span>
-网站是用MDL材料设计而成 , 网站</span>
-<a href="https://getmdl.io/">https://getmdl.io/</a>
+      <h4 align="center">
+网站是用MDL材料设计而成 , 网站
+<a href="https://getmdl.io/">https://getmdl.io/</a></h4>
 </div>
     </section>
 
@@ -139,5 +168,5 @@ window.location.href='https://wwx.lanzoux.com/b0f721npe';
 
 
 
-
+</body>
 </html>
