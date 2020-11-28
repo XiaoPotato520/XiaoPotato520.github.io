@@ -44,9 +44,13 @@ color=#fff;
 div.margin_5px{
 margin-top:5px ;
 }
-
+footer.bottom{
+position: fixed;
+bottom:0;
+width:100%;
+}
 </style>
-<body>
+
 <!-- 标签拦 -->
 <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header
             mdl-layout--fixed-tabs">
@@ -82,7 +86,15 @@ window.location.href='bilibili://space/200264982';
       <a class="nav_list_item mdl-js-button mdl-button mdl-js-ripple-effect" href=""><b>刷新页面</b></a>
 
 
-
+<footer class="mdl-mini-footer bottom">
+  <div class="mdl-mini-footer__left-section">
+    <div class="mdl-logo">一款MC Add-on 制作器</div>
+    <ul class="mdl-mini-footer__link-list">
+      <li><a href="https://xiaopotato520.github.io/addon_maker_index.html#fixed-tab-3">关于</a></li>
+      <li><a href="mqqapi://card/show_pslcard?src_type=internal&version=1&uin=439072056&key=<key>&card_type=group&source=external">联机群</a></li>
+    </ul>
+  </div>
+</footer>
       </nav>
   </div>
   <main class="mdl-layout__content">
@@ -200,7 +212,3 @@ height:50%;
     </section>
   </main>
 </div>
-
-
-
-</body>
